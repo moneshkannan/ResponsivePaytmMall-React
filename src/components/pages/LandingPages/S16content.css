@@ -1,0 +1,19 @@
+p{
+    justify-content: center;
+    font-size: small;
+    display: contents;
+}
+.S16content{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+span{
+    font-weight:bold;
+    font-size:13px
+}
+.card-deck{
+    margin-top: 2rem;
+}
+.rr{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,28 @@
+.S7flashpro{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.4s cubic-bezier(0,1.57,.67,1.18);
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.box{
+    flex: 1 1 200px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+.box .image{
+    padding: 10px;
+    text-align: center;
+}
+.box .image img{
+    height:200px;
+    width:250px;
+    object-fit: contain;
+}
