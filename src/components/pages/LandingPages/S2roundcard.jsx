@@ -3,7 +3,7 @@ import "./S2roundcard.css"
 function S2roundcard() {
     return (
         <div className="S2roundcard">
-            <div className="justify-content-between wrapper crd" style={{marginTop:"1rem"}}>
+            <div className="justify-content-between wrapper crd" style={{marginTop:"5rem"}}>
                 <div className="rounded-circle" style={{paddingLeft:"20px"}}>
                     <div className="rounded-circle" style={{textAlign:"center"}}>
                         <a href="/"><img className="rounded-circle" height="100px" src="https://assetscdn1.paytm.com/images/catalog/view_item/765717/1615634180672.png?imwidth=140&impolicy=hq" alt="Card"/></a>
