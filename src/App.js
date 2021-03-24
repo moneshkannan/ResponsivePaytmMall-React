@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import S1navbar from './components/pages/LandingPages/S1navbar'
+import S2roundcard from './components/pages/LandingPages/S2roundcard'
+import S3carousel from './components/pages/LandingPages/S3carousel'
+import S4roundcard2 from './components/pages/LandingPages/S4roundcard2'
+import S5gadgetzone from './components/pages/LandingPages/S5gadgetzone'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <S1navbar />
+      <S2roundcard />
+      <S3carousel />
+      <S4roundcard2 />
+      <S5gadgetzone />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
