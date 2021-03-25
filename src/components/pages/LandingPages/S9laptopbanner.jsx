@@ -5,13 +5,13 @@ function S9laptopbanner() {
         <div>
             <div class="card-group">
                 <div class="card" style={{margin:"1rem"}}>
-                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/773962/1616484271756.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773962/1616484271756.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/></a>
                 </div>
                 <div class="card" style={{margin:"1rem"}}>
-                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/773963/1616484476585.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773963/1616484476585.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/></a>
                 </div>
                 <div class="card" style={{margin:"1rem"}}>
-                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/773964/1616484441431.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773964/1616484441431.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/></a>
                 </div>
             </div>
             <div className="justify-content-between wrapper crd " style={{marginTop:"3rem"}}>

@@ -10,22 +10,22 @@ function S6mobiles() {
                 <div className="row">
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card" style={{boxShadow:"none"}}>
-                            <img class="card-img-top" width="100%" height="auto" src="https://assetscdn1.paytm.com/images/catalog/view_item/773753/1616185189101.png?imwidth=414&impolicy=hq" alt="..."/>
+                            <a href="/"><img class="card-img-top" width="100%" height="auto" src="https://assetscdn1.paytm.com/images/catalog/view_item/773753/1616185189101.png?imwidth=414&impolicy=hq" alt="..."/></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card" style={{boxShadow:"none"}}>
-                            <img class="card-img-top" src="https://assetscdn1.paytm.com/images/catalog/view_item/773754/1616180094851.png?imwidth=414&impolicy=hq" alt="..."/>
+                            <a href="/"><img class="card-img-top" src="https://assetscdn1.paytm.com/images/catalog/view_item/773754/1616180094851.png?imwidth=414&impolicy=hq" alt="..."/></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card" style={{boxShadow:"none"}}>
-                            <img class="card-img-top" src="https://assetscdn1.paytm.com/images/catalog/view_item/773755/1616180128293.png?imwidth=414&impolicy=hq" alt="..."/>
+                            <a href="/"><img class="card-img-top" src="https://assetscdn1.paytm.com/images/catalog/view_item/773755/1616180128293.png?imwidth=414&impolicy=hq" alt="..."/></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card" style={{boxShadow:"none"}}>
-                            <img class="card-img-top" src="https://assetscdn1.paytm.com/images/catalog/view_item/773756/1616180156920.png?imwidth=414&impolicy=hq" alt="..."/>
+                            <a href="/"><img class="card-img-top" src="https://assetscdn1.paytm.com/images/catalog/view_item/773756/1616180156920.png?imwidth=414&impolicy=hq" alt="..."/></a>
                         </div>
                     </div>
                 </div>
