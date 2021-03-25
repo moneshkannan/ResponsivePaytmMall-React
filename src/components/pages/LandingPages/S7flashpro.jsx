@@ -8,9 +8,9 @@ function S7flashpro() {
                 <button type="button" class="rounded-pill btn btn-danger">View all</button>
             </div>
             <div className=" box-container">
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                        <a href="/" ><img src="https://assetscdn1.paytm.com/images/catalog/product/W/WA/WATREALME-RMA16ONE-47081B97EAA2/0..jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                        <a href="/" ><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/W/WA/WATREALME-RMA16ONE-47081B97EAA2/0..jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -20,9 +20,9 @@ function S7flashpro() {
                         <div className="alert alert-success btn"><span>Cashback ₹50</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/C/CO/COMAPPLE-MV7N2HTELE2887394B147781/1562676539664_0..jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/C/CO/COMAPPLE-MV7N2HTELE2887394B147781/1562676539664_0..jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -32,9 +32,9 @@ function S7flashpro() {
                         <div className="alert alert-success btn"><span>Cashback ₹550</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMMILTON-INSULHAMI57216FB0262E4/1583407869954_26.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMMILTON-INSULHAMI57216FB0262E4/1583407869954_26.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -44,9 +44,9 @@ function S7flashpro() {
                         <div className="alert alert-success btn"><span>Cashback ₹50</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMHAWKINS-STAIPATR22602A285B49C/1580898367968_4.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMHAWKINS-STAIPATR22602A285B49C/1580898367968_4.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -56,9 +56,9 @@ function S7flashpro() {
                         <div className="alert alert-success btn"><span>Cashback ₹50</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/P/PE/PERPHILIPS-BT12TRUE11677635D34D6D/0.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/P/PE/PERPHILIPS-BT12TRUE11677635D34D6D/0.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -69,6 +69,10 @@ function S7flashpro() {
                     </div>
                 </div>
             </div>
+            <div className="line" style={{textAlign:"center"}}>
+            <hr className=" rounded-pill  mb-3 mt-1 d-inline-block mx-auto" style={{width:"150px", height:"10px",color:"red"}}/>
+            </div>
+            
             
             
         </div>

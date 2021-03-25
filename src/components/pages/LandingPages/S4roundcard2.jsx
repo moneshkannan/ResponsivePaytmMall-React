@@ -3,7 +3,7 @@ import React from 'react'
 function S4roundcard2() {
     return (
         <div>
-            <div className="justify-content-between wrapper crd " style={{marginTop:"1rem"}}>
+            <div className="justify-content-between wrapper crd " style={{marginTop:"2rem"}}>
                 <div className="rounded-circle" style={{paddingLeft:"20px"}}>
                     <div className="rounded-circle" style={{textAlign:"center"}}>
                         <a href="/"><img className="rounded-circle" height="100px" src="https://assetscdn1.paytm.com/images/catalog/view_item/773588/1616175284189.png?imwidth=140&impolicy=hq" alt="Card"/></a>

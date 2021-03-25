@@ -3,7 +3,7 @@ import React from 'react'
 function S5gadgetzone() {
     return (
         <div>
-            <div className="heading" style={{textAlign:"center"}}>
+            <div className="heading" style={{marginTop:"2rem",textAlign:"center"}}>
                 <h1>Gadget zone</h1>
             </div>
             <div className="container">

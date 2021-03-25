@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './components/pages/LandingPages/About'
+import Mobiles from './components/pages/LandingPages/Mobiles'
 import S10lapbest from './components/pages/LandingPages/S10lapbest'
 import S11fashion from './components/pages/LandingPages/S11fashion'
 import S12electrobest from './components/pages/LandingPages/S12electrobest'
@@ -7,6 +8,7 @@ import S13home from './components/pages/LandingPages/S13home'
 import S14health from './components/pages/LandingPages/S14health'
 import S16content from './components/pages/LandingPages/S16content'
 import S17content from './components/pages/LandingPages/S17content'
+import S18footer from './components/pages/LandingPages/S18footer'
 import S1navbar from './components/pages/LandingPages/S1navbar'
 import S2roundcard from './components/pages/LandingPages/S2roundcard'
 import S3carousel from './components/pages/LandingPages/S3carousel'
@@ -34,9 +36,11 @@ function App() {
       <S13home />
       <S12electrobest />
       <S14health />
+      <Mobiles />
       <S16content />
       <S17content />
       <About />
+      <S18footer />
     </div>
   )
 }

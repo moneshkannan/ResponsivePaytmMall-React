@@ -4,8 +4,8 @@ function About() {
     return (
         <div>
             <div className="About" style={{marginTop:"2rem",backgroundColor:"#f5f5f5"}}>
-            <div className="d-flex">
-                <div className="mr-auto p-2">
+            <div className="d-flex justify-content-between">
+                <div className="float-left mr-auto p-2">
                     <a href="/"><span style={{paddingRight:"15px",paddingLeft:"20px",color:"#f05820"}}>About Us</span></a>
                     <a href="/"><span style={{paddingRight:"15px",color:"#f05820"}}>Partner with us</span></a>
                     <a href="/"><span style={{paddingRight:"15px",color:"#f05820"}}>Terms & Conditions</span></a>
@@ -29,6 +29,8 @@ function About() {
                 
             </div>
         </div>
+
+
         </div>
     )
 }

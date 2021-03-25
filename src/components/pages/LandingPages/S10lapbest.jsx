@@ -8,9 +8,9 @@ function S10lapbest() {
                 <button type="button" class="rounded-pill btn btn-danger">View all</button>
             </div>
             <div className=" box-container">
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                        <a href="/" ><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPHP-14-INTEL-GREE395087F5339C8E/1605251592397_0..jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                        <a href="/" ><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPHP-14-INTEL-GREE395087F5339C8E/1605251592397_0..jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -20,9 +20,9 @@ function S10lapbest() {
                         <div className="alert alert-success btn"><span>Cashback ₹50</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPMICROSOFT-SUSUPE4622280AE6CED/1594991589485_0..png?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPMICROSOFT-SUSUPE4622280AE6CED/1594991589485_0..png?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -32,9 +32,9 @@ function S10lapbest() {
                         <div className="alert alert-success btn"><span>Cashback ₹1050</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPLENOVO-IDEAPUNBO867328D4A8736A/0.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPLENOVO-IDEAPUNBO867328D4A8736A/0.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -44,9 +44,9 @@ function S10lapbest() {
                         <div className="alert alert-success btn"><span>Cashback ₹850</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPAVITA-ESSENTSUN-530338664D013/7.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPAVITA-ESSENTSUN-530338664D013/7.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -56,9 +56,9 @@ function S10lapbest() {
                         <div className="alert alert-success btn"><span>Cashback ₹1050</span></div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box parent">
                     <div className="image">
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPHP-PAVILION-MOBI22943E35466A0/1602672558431_0.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
+                    <a href="/"><img className="child" src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPHP-PAVILION-MOBI22943E35466A0/1602672558431_0.jpg?imwidth=280&impolicy=hq" alt="watch" /></a>
                     </div>
                     <div className="info" style={{textAlign:"center"}}>
                         <div className="price">
@@ -68,6 +68,9 @@ function S10lapbest() {
                         <div className="alert alert-success btn"><span>Cashback ₹2,050</span></div>
                     </div>
                 </div>
+            </div>
+            <div className="line" style={{textAlign:"center"}}>
+            <hr className=" rounded-pill  mb-3 mt-1 d-inline-block mx-auto" style={{width:"150px", height:"10px",color:"red"}}/>
             </div>
         </div>
     )

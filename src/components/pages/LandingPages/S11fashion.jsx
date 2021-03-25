@@ -3,7 +3,7 @@ import React from 'react'
 function S11fashion() {
     return (
         <div>
-            <div className="fash-head" style={{textAlign:'center'}}>
+            <div className="fash-head" style={{textAlign:'center',marginTop:"2rem"}}>
                 <h1>Explore Fashion Collection</h1>
             </div>
             <div className="container" style={{paddingBottom:"3rem"}}>
@@ -96,7 +96,7 @@ function S11fashion() {
                     </div>
                 </div>
             </div>
-            <div class="card-group">
+            <div class="card-group" style={{marginTop:"2rem"}}>
                 <div class="card" style={{margin:"1rem"}}>
                     <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773891/1616578830125.jpg?imwidth=480&impolicy=hq" class="card-img-top" alt="..."/></a>
                 </div>

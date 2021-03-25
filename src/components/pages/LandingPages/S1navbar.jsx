@@ -3,7 +3,7 @@ import "./S1navbar.css"
 function S1navbar() {
     return (
         <div className="S1navbar">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style={{boxShadow:"none"}}>
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
                         <img src="https://png.pngitem.com/pimgs/s/12-123311_paytm-mall-transparent-logo-paytm-mall-icon-png.png" height="50px" width="90px" alt=".."/>

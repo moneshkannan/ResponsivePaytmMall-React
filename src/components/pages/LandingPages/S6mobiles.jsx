@@ -3,7 +3,7 @@ import React from 'react'
 function S6mobiles() {
     return (
         <div>
-            <div className="explore" style={{textAlign:"center"}}>
+            <div className="explore" style={{textAlign:"center",marginTop:"2rem"}}>
                 <h1>Explore Mobiles and Tablets</h1>
             </div>
             <div className="container">
@@ -30,7 +30,7 @@ function S6mobiles() {
                     </div>
                 </div>
             </div>
-            <div className="justify-content-between wrapper crd " style={{marginTop:"1rem"}}>
+            <div className="justify-content-between wrapper crd " style={{marginTop:"2rem"}}>
                 <div className="rounded-circle" style={{paddingLeft:"20px"}}>
                     <div className="rounded-circle" style={{textAlign:"center"}}>
                         <a href="/"><img className="rounded-circle" height="100px" src="https://assetscdn1.paytm.com/images/catalog/view_item/773757/1616180323630.png?imwidth=140&impolicy=hq" alt="Card"/></a>
